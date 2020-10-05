@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <h2>DEBOUNCING AND THROTTLING</h2>
+    <p>This is just a demo. Please see the browser console while you enter content in input fields.</p>
+    <form action="">
+        <label for="debouncing">DEBOUNCING</label>
+        <input type="text" id="debouncing" onkeypress="superDebouncer(event)">
+        <br> <br>
+        <label for="throttling">THROTTLING</label>
+        <input type="text" id="throttling" onkeypress="superThrottler(event)">
+    </form>
+</body>
+</html>
